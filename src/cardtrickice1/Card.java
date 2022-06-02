@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cardtrickice1;
+package CardTrickICE1;
 
 /** define card value and suits
  * 
  *
  * @author sivagamasrinivasan
+ 
  */
 public class Card 
 {
@@ -47,5 +48,25 @@ public class Card
    //number
     
     //method for suits
+
+    void setSuit(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    Object getSuit() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    static class SUITS {
+
+        public SUITS() {
+        }
+    }
+
+    static class suits {
+
+        public suits() {
+        }
+    }
     
 }
