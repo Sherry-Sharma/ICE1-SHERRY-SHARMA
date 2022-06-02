@@ -3,8 +3,12 @@ import java.util.Random;
 import java.util.Scanner;
 import CardTrickICE1.Card.suits;
 public class CardTrickICE1 {
+	
    
     public static void main(String[] args) {
+	    Card luckyCard = new Card();
+	    luckyCard.setvalue(4);
+	    luckyCard.setSuits(Card.SUITS[2]);
         
         Card[] magicHand = new Card[7];
 
